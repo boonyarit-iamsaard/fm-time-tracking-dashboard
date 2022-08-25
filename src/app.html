@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="This is a solution to the Time tracking dashboard challenge on Frontend Mentor."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -9,7 +13,47 @@
       sizes="32x32"
       href="%sveltekit.assets%/images/favicon-32x32.png"
     />
+
     %sveltekit.head%
+
+    <style>
+      /* rubik-300 - latin */
+      @font-face {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: local(''),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-300.woff2')
+            format('woff2'),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-300.woff')
+            format('woff');
+      }
+      /* rubik-regular - latin */
+      @font-face {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local(''),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-regular.woff2')
+            format('woff2'),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-regular.woff')
+            format('woff');
+      }
+      /* rubik-500 - latin */
+      @font-face {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local(''),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-500.woff2')
+            format('woff2'),
+          url('%sveltekit.assets%/fonts/rubik-v21-latin-500.woff')
+            format('woff');
+      }
+    </style>
   </head>
   <body>
     %sveltekit.body%
