@@ -54,7 +54,7 @@ Previous - 11hrs <!-- monthly -->
   >.
 </div>
 
-<style lang="css">
+<style lang="scss">
   .attribution {
     font-size: 0.75rem;
     text-align: center;
